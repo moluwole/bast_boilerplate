@@ -1,4 +1,4 @@
-let mix 	= require('laravel-mix');
+let mix 	= require('bast-asset');
 // let elixir  = require('laravel-elixir');
 
 
