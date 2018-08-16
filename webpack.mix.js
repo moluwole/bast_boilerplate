@@ -1,4 +1,4 @@
-let mix 	= require('bast-asset');
+let asset 	= require('bast-asset');
 
-mix.js('public/assets/js/bast.js', 'public/static/js')
+asset.js('public/assets/js/bast.js', 'public/static/js')
    .sass('public/assets/sass/app.scss', 'public/static/css');

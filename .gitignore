@@ -2,3 +2,6 @@ venv
 *.pyc
 .idea
 /node_modules
+.vscode
+.DS_Store
+public/.DS_Store
