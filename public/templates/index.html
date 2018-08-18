@@ -1,14 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Bast Framework </title>
-     {{ css('app.css') }}
-    {{ css('style.css') }}
-</head>
-<body>
+{% extends "layouts/app.html" %}
+
+{% block title %}Bast Framework{% endblock %}
+
+
+{% block content %}
     <div class="layout">
         <div class="content-body">
             <img src="images/bast-logo.jpeg" alt="" class="image">
@@ -33,5 +28,11 @@
             </div>
         </div>
     </div>
-</body>
-</html>
+{% endblock %}
+
+
+{% block script %}
+    <script>
+        console.log('Hello world')
+    </script>
+{% endblock %}
